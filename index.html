@@ -179,7 +179,7 @@
       const weatherInfoEl = document.getElementById("weatherInfo");
       const loader = document.getElementById("loader");
       const apiKey = "8307cfec9c4148329c072725252801";
-      const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
+      const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
       if (!location) {
         weatherInfoEl.innerHTML = `<p class="error-message">Please enter a location.</p>`;
